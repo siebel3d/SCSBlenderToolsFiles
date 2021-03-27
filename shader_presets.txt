@@ -41,10 +41,10 @@ Shader {
         Value: ( 0.2 0.9 )
     }
     Attribute {
-        Format: FLOAT
+        Format: FLOAT2
         Tag: "aux[5]"
-        FriendlyTag: "Luminance Boost"
-        Value: ( 0.0 )
+        FriendlyTag: "Luminance & night adpt(?)"
+        Value: ( 50.0 0.0 )
     }
     Texture {
         Tag: "texture[X]:texture_base"
@@ -82,10 +82,10 @@ Shader {
         Value: ( 0.0 )
     }
     Attribute {
-        Format: FLOAT
+        Format: FLOAT2
         Tag: "aux[5]"
-        FriendlyTag: "Luminance Boost"
-        Value: ( 0.0 )
+        FriendlyTag: "Luminance & night adpt(?)"
+        Value: ( 50.0 0.0 )
     }
     Texture {
         Tag: "texture[X]:texture_base"
@@ -118,10 +118,10 @@ Shader {
         Value: ( 0.0 )
     }
     Attribute {
-        Format: FLOAT
+        Format: FLOAT2
         Tag: "aux[5]"
-        FriendlyTag: "Luminance Boost"
-        Value: ( 0.0 )
+        FriendlyTag: "Luminance & night adpt(?)"
+        Value: ( 50.0 0.0 )
     }
     Texture {
         Tag: "texture[X]:texture_base"
@@ -154,10 +154,10 @@ Shader {
         Value: ( 0.0 )
     }
     Attribute {
-        Format: FLOAT
+        Format: FLOAT2
         Tag: "aux[5]"
-        FriendlyTag: "Luminance Boost"
-        Value: ( 0.0 )
+        FriendlyTag: "Luminance & night adpt(?)"
+        Value: ( 50.0 0.0 )
     }
     Texture {
         Tag: "texture[X]:texture_base"
@@ -190,10 +190,10 @@ Shader {
         Value: ( 0.0 )
     }
     Attribute {
-        Format: FLOAT
+        Format: FLOAT2
         Tag: "aux[5]"
-        FriendlyTag: "Luminance Boost"
-        Value: ( 0.0 )
+        FriendlyTag: "Luminance & night adpt(?)"
+        Value: ( 50.0 0.0 )
     }
     Texture {
         Tag: "texture[X]:texture_base"
@@ -373,10 +373,10 @@ Shader {
         Value: ( 0.0 )
     }
     Attribute {
-        Format: FLOAT
+        Format: FLOAT2
         Tag: "aux[5]"
-        FriendlyTag: "Luminance Boost"
-        Value: ( 0.0 )
+        FriendlyTag: "Luminance & night adpt(?)"
+        Value: ( 2000.0 10.0 )
     }
     Texture {
         Tag: "texture[X]:texture_base"
