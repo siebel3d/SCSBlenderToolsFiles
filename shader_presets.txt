@@ -1471,6 +1471,12 @@ Shader {
         Value: ""
         TexCoord: ( 0 )
     }
+    Attribute {
+        Format: FLOAT2
+        Tag: "aux[5]"
+        FriendlyTag: "Luminance & night adpt(?)"
+        Value: ( 50.0 0.0 )
+    }
 }
 Shader {
     PresetName: "mlaaweight"
@@ -1653,6 +1659,12 @@ Shader {
         Tag: "texture[X]:texture_base"
         Value: ""
         TexCoord: ( 0 )
+    }
+    Attribute {
+        Format: FLOAT2
+        Tag: "aux[5]"
+        FriendlyTag: "Luminance & night adpt(?)"
+        Value: ( 50.0 0.0 )
     }
 }
 Shader {
